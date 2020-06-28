@@ -1,0 +1,283 @@
+body {
+  background: url("/images/midnight.png");
+  position: relative;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+hr {
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.title h1 {
+  font-weight: bold;
+  position: relative;
+  text-shadow: 2px 2px 6px rgb(243, 55, 80);
+}
+
+.alert-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.allMesages .alert.alert-dark {
+  padding: 10px !important;
+  width: 45%;
+  margin-right: auto;
+}
+
+label {
+  color: #fff;
+}
+
+.allMesages .alert.alert-success {
+  padding: 10px !important;
+  width: 45%;
+  margin-left: auto;
+}
+.allMesages {
+  background: url("/images/for-chat.jpg");
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  overflow: hidden;
+  overflow-y: visible;
+  padding: 10px;
+}
+
+.allMesages div h6 {
+  margin: 0;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+.msg-content {
+  margin: 0;
+  word-break: break-all;
+}
+
+.help-h5 {
+  margin: 0;
+}
+
+.NotMsg {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #dfdfdf;
+  user-select: none;
+}
+
+.formNickname .controls div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.formNickname .controls div:first-child label {
+  margin-right: 5px;
+}
+
+.formNickname .controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.formNickname {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formNickname input {
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+.form {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.form .textField {
+  background: #dfdfdf;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+
+  outline: none;
+}
+
+.form .submit svg {
+  width: 15px;
+  height: 15px;
+}
+
+.form .submit {
+  width: 40px;
+  height: 35px;
+  background: #dfdfdf;
+
+  border-radius: 50px;
+  border: none;
+  margin-left: 6px;
+  transition: all 0.3s;
+  padding: 0;
+  padding-left: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+
+.form .submit:hover {
+  background: #c9c8c8;
+}
+
+.form .submit:hover svg path {
+  fill: rgb(3, 56, 105);
+}
+
+.functional {
+  display: none;
+
+  background: #fff;
+  border-radius: 5px;
+  width: 100%;
+  min-height: 50px;
+  margin-top: 20px;
+
+  align-items: center;
+
+  padding: 0 5px;
+}
+
+.functional button {
+  margin-right: 5px;
+}
+
+.functional.users {
+  flex-direction: column;
+  align-items: flex-start;
+  max-height: 250px;
+}
+
+.arr {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.functional.users .arr .alert.alert-info,
+.functional.users .arr .alert.alert-danger {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.functional.users hr {
+  margin: 0;
+  border-color: #000 !important;
+  width: 100%;
+}
+
+.functional.users b {
+  display: flex;
+}
+
+.hiddenElementForScroll {
+  width: 100%;
+  height: 10px;
+  visibility: hidden;
+}
+
+.ldio-l417sdk0vkm div {
+  animation: ldio-l417sdk0vkm 1s linear infinite;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  box-shadow: 0 4px 0 0 #e15b64;
+  transform-origin: 80px 82px;
+}
+
+.loadingio-spinner-eclipse-8hm10mdk5ci {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: #ffffff;
+  z-index: 1000;
+}
+
+.ldio-l417sdk0vkm {
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+  /* see note above */
+}
+
+.ldio-l417sdk0vkm div {
+  box-sizing: content-box;
+}
+
+@keyframes lowOpacity {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes ldio-l417sdk0vkm {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
